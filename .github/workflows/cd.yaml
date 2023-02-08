@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   maybe-release:
     name: release
@@ -16,7 +16,7 @@ jobs:
         with:
           command: manifest
           token: ${{secrets.GITHUB_TOKEN}}
-          default-branch: master
+          default-branch: main
           release-type: node
           monorepo-tags: true
           changelog-types: '[{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":true}]'
@@ -35,7 +35,7 @@ jobs:
 
       - run: corepack enable
       
-      - run: yarn install --immutable
+      - run: yarn install
         # if: ${{ steps.release.outputs.releases_created }}
       
       - run: yarn build
@@ -48,4 +48,4 @@ jobs:
           echo npmAuthToken: "$NODE_AUTH_TOKEN" >> ./.yarnrc.yml
           
       - run: yarn workspaces foreach -v --exclude root --no-private npm publish --tolerate-republish --access public
-        if: ${{ steps.release.outputs.releases_created }}
+        # if: ${{ steps.release.outputs.releases_created }}
