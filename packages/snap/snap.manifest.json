@@ -1,0 +1,36 @@
+{
+  "version": "2.3.10",
+  "proposedName": "SafientSnap",
+  "description": "The Safient snap.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Chainsafe/filsnap.git"
+  },
+  "source": {
+    "shasum": "J1cAG8EPFx/v3HEn4H/ugFrCEiAjX9XD57p5DJmCva8=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "@safient/snap",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "endowment:network-access": {},
+    "snap_confirm": {},
+    "snap_getBip44Entropy": [
+      {
+        "coinType": 1
+      },
+      {
+        "coinType": 461
+      },
+      {
+        "coinType": 60
+      }
+    ],
+    "snap_manageState": {}
+  },
+  "manifestVersion": "0.1"
+}
