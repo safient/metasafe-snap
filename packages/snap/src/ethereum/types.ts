@@ -1,4 +1,4 @@
-import { Message, SignedMessage } from "@safient/snap-types";
+import { Message, SignedMessage } from "@safient/metasafe-types";
 
 export interface LotusRpcApi {
   version(): Promise<VersionResponse>;

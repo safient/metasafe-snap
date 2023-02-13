@@ -1,4 +1,4 @@
-import { SnapConfig } from "@safient/snap-types";
+import { SnapConfig } from "@safient/metasafe-types";
 
 export const ethereumMainnetConfiguration: SnapConfig = {
   derivationPath: "m/44'/60'/0'/0/0",

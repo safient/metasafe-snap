@@ -2,7 +2,7 @@ import {
   MessageStatus,
   MetamaskFilecoinRpcRequest,
   SnapConfig,
-} from "@safient/snap-types";
+} from "@safient/metasafe-types";
 import { defaultConfiguration } from "./configuration/predefined";
 
 export type FMethodCallback = (

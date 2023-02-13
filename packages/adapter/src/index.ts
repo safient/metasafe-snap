@@ -1,4 +1,4 @@
-import { SnapConfig } from "@safient/snap-types";
+import { SnapConfig } from "@safient/metasafe-types";
 import {
   hasMetaMask,
   isMetamaskSnapsSupported,

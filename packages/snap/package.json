@@ -1,8 +1,8 @@
 {
-  "name": "@safient/snap",
-  "version": "2.3.10",
+  "name": "@safient/metasafe-snap",
+  "version": "0.1.0-beta",
   "license": "(Apache-2.0 AND MIT)",
-  "description": "Filsnap - Metamask snap to interact with Filecoin dapps.",
+  "description": "Metasafe - Snap to enable MetaMask users to create recovery and inheritance plans for their accounts.",
   "main": "build/index.js",
   "scripts": {
     "snap": "mm-snap",
@@ -31,24 +31,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Chainsafe/filsnap.git"
+    "url": "https://github.com/safient/metasafe-snap.git"
   },
   "keywords": [
     "metamask",
     "snap",
-    "dapp",
+    "recovery",
     "wallet",
     "plugin"
   ],
-  "author": "chainsafe <info@chainsafe.io>",
+  "author": "Safient <hello@safient.io>",
   "bugs": {
-    "url": "https://github.com/chainsafe/filecoin-metamask-snap/issues"
+    "url": "https://github.com/safient/metasafe-snap/issues"
   },
-  "homepage": "https://github.com/chainsafe/filecoin-metamask-snap#readme",
+  "homepage": "https://github.com/safient/metasafe-snap#readme",
   "devDependencies": {
     "@metamask/providers": "^9.0.0",
     "@metamask/snaps-cli": "^0.18.1",
-    "@safient/snap-types": "workspace:^",
+    "@safient/metasafe-types": "workspace:^",
     "@types/bn.js": "^4.11.6",
     "@types/chai": "^4.2.10",
     "@types/mocha": "^9.1.1",

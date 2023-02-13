@@ -1,6 +1,6 @@
 // import chai, { expect } from "chai";
 // import sinonChai from "sinon-chai";
-// import { MessageRequest } from "@safient/snap-types";
+// import { MessageRequest } from "@safient/metasafe-types";
 // import { Message } from "@zondax/filecoin-signing-tools/js";
 // import { signMessage } from "../../../src/rpc/signMessage";
 // import { LotusApiMock } from "../lotusapi.mock.test";

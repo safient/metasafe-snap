@@ -1,4 +1,4 @@
-import { MessageStatus } from "@safient/snap-types";
+import { MessageStatus } from "@safient/metasafe-types";
 import { SnapProvider } from "@metamask/snap-types";
 import { MetamaskState } from "../interfaces";
 

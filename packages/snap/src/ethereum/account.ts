@@ -1,5 +1,5 @@
 import { keyRecover } from "@zondax/filecoin-signing-tools/js";
-import { KeyPair } from "@safient/snap-types";
+import { KeyPair } from "@safient/metasafe-types";
 import {
   getBIP44AddressKeyDeriver,
   JsonBIP44CoinTypeNode,

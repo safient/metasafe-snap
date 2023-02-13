@@ -4,7 +4,7 @@ import {
   ProviderOptions,
 } from "@filecoin-shipyard/lotus-client-provider-nodejs";
 import { testnet } from "@filecoin-shipyard/lotus-client-schema";
-import { SnapConfig } from "@safient/snap-types";
+import { SnapConfig } from "@safient/metasafe-types";
 import { SnapProvider } from "@metamask/snap-types";
 import { getConfiguration } from "../configuration";
 import { LotusRpcApi } from "./types";
