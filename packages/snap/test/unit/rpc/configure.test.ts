@@ -1,4 +1,4 @@
-// import { SnapConfig } from "@safient/snap-types";
+// import { SnapConfig } from "@safient/metasafe-types";
 // import chai, { expect } from "chai";
 // import sinonChai from "sinon-chai";
 // import { filecoinTestnetConfiguration } from "../../../src/configuration/predefined";

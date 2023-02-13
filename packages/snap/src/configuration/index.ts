@@ -1,4 +1,4 @@
-import { SnapConfig } from "@safient/snap-types";
+import { SnapConfig } from "@safient/metasafe-types";
 import { SnapProvider } from "@metamask/snap-types";
 import { MetamaskState } from "../interfaces";
 import {

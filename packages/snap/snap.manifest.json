@@ -1,5 +1,5 @@
 {
-  "version": "2.3.10",
+  "version": "0.1.0-beta",
   "proposedName": "SafientSnap",
   "description": "The Safient snap.",
   "repository": {
@@ -11,7 +11,7 @@
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
-        "packageName": "@safient/snap",
+        "packageName": "@safient/metasafe-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }

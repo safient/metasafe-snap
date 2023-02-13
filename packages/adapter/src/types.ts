@@ -1,4 +1,4 @@
-import { SnapRpcMethodRequest } from "@safient/snap-types";
+import { SnapRpcMethodRequest } from "@safient/metasafe-types";
 
 declare global {
   interface Window {

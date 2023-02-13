@@ -1,4 +1,4 @@
-// import { Message, MessageStatus } from "@safient/snap-types";
+// import { Message, MessageStatus } from "@safient/metasafe-types";
 // import chai, { expect } from "chai";
 // import sinonChai from "sinon-chai";
 // import { updateMessageInState } from "../../../src/filecoin/message";

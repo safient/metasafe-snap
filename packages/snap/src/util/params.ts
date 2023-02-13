@@ -2,7 +2,7 @@ import {
   MessageRequest,
   SignedMessage,
   SnapConfig,
-} from "@safient/snap-types";
+} from "@safient/metasafe-types";
 
 type WithRequired<T, K extends keyof T> = T & { [P in K]-?: T[P] };
 

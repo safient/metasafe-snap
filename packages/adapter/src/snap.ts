@@ -1,4 +1,4 @@
-import { SafientSnapApi } from "@safient/snap-types";
+import { SafientSnapApi } from "@safient/metasafe-types";
 import {
   exportPrivateKey,
   getAddress,

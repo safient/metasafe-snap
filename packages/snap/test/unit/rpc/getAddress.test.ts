@@ -1,6 +1,6 @@
 // import chai, { expect } from "chai";
 // import sinonChai from "sinon-chai";
-// import { SnapConfig } from "@safient/snap-types";
+// import { SnapConfig } from "@safient/metasafe-types";
 // import { getAddress } from "../../../src/rpc/getAddress";
 // import { mockSnapProvider } from "../wallet.mock.test";
 // import {

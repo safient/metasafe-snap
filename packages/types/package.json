@@ -1,13 +1,13 @@
 {
-  "name": "@safient/snap-types",
-  "version": "2.1.2",
+  "name": "@safient/metasafe-types",
+  "version": "0.1.0-beta",
   "types": "./index.d.ts",
   "license": "(Apache-2.0 AND MIT)",
-  "author": "chainsafe <info@chainsafe.io>",
+  "author": "Safient <hello@safient.io>",
   "publishConfig": {
     "access": "public"
   },
-  "description": "Types for Filsnap.",
+  "description": "Types for MetaSafe.",
   "keywords": [
     "filecoin",
     "metamask",

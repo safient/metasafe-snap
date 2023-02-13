@@ -1,6 +1,6 @@
 import {
   MetamaskFilecoinRpcRequest,
-} from "@safient/snap-types";
+} from "@safient/metasafe-types";
 import { MetamaskSafientSnap } from "./snap";
 
 async function sendSnapMethod<T>(

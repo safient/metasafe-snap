@@ -1,12 +1,12 @@
 {
-  "name": "@safient/wallet-adapter",
-  "version": "2.1.2",
+  "name": "@safient/metasafe-adapter",
+  "version": "0.1.0-beta",
   "main": "./build/index.js",
   "module": "./build/index.js",
   "types": "./build/index.d.ts",
-  "author": "chainsafe <info@chainsafe.io>",
+  "author": "Safient <hello@safient.io>",
   "license": "(Apache-2.0 AND MIT)",
-  "homepage": "https://github.com/chainsafe/filecoin-metamask-snap/tree/master/packages/adapter",
+  "homepage": "https://github.com/safient/metasafe-snap/tree/master/packages/adapter",
   "keywords": [
     "filecoin",
     "metamask",
@@ -29,7 +29,7 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@safient/snap-types": "workspace:^"
+    "@safient/metasafe-types": "workspace:^"
   },
   "devDependencies": {
     "@types/node": "^12.12.35",
